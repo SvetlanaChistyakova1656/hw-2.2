@@ -4,10 +4,10 @@ public class Main {
         int currentBalance = 100; // текущая сумма на счету клиента
         int rechargeAmount = 1100; // сумма пополнения
 
-        int bonusAmount = 0; // сумма бонуса
+        int bonusAmount = 11;// сумма бонуса
 
         if (rechargeAmount > 1000) {
-            bonusAmount = rechargeAmount / 100 - 10;
+            bonusAmount = rechargeAmount / 100;
         }
 
         int totalBalance = currentBalance + rechargeAmount + bonusAmount;
